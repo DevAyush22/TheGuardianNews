@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#7b4bff</color>
+    <color name="colorPrimaryDark">#6539ba</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="news_title_color">#000000</color>
+    <color name="section_name_color">#E53935</color>
+    <color name="splash_title_color">#FFFFFF</color>
+    <color name="splash_colorPrimaryDark">#03A9F4</color>
+
+</resources>

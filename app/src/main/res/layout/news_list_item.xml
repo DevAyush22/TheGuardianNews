@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:elevation="4dp"
+        card_view:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/article_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/news_title_color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:text="CBSE results day 2018: Students get their grades - LIVE" />
+
+            <TextView
+                android:id="@+id/author_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/article_title"
+                android:layout_marginLeft="12dp"
+                tools:text="by Alex Hern" />
+
+            <TextView
+                android:id="@+id/section_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/author_name"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="6dp"
+                android:textAllCaps="true"
+                android:textColor="@color/section_name_color"
+                android:textStyle="bold"
+                tools:text="EDUCATION" />
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/article_title"
+                android:layout_gravity="end"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="6dp"
+                android:textSize="12sp"
+                tools:text="Sep 05, 2018" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/date"
+                android:layout_gravity="end"
+                android:layout_marginBottom="12dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="2dp"
+                android:textSize="12sp"
+                tools:text="8:00 PM" />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

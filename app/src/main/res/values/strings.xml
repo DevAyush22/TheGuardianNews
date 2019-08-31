@@ -1,0 +1,87 @@
+<resources>
+
+    <string name="app_name">Guardian News</string>
+    <string name="no_internet_connection">NO INTERNET CONNECTION</string>
+    <string name="no_news_article">NO NEWS ARTICLE FOUND</string>
+    <string name="by_anonymous">by Anonymous</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search for topics..</string>
+
+    <!-- Strings For Choose Category Preference [CHAR LIMIT=30] -->
+    <string name="settings_choose_category_label">Choose Category</string>
+    <string name="settings_choose_category_key" translatable="false">section</string>
+    <string name="settings_choose_category_default" translatable="false">@string/settings_choose_category_all_value</string>
+
+    <!-- Label for choose category "All" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_all_label">All</string>
+    <string name="settings_choose_category_all_value" translatable="false">all</string>
+
+    <!-- Label for choose category "Politics" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_politics_label">Politics</string>
+    <string name="settings_choose_category_politics_value" translatable="false">politics</string>
+
+    <!-- Label for choose category "Sport" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_sports_label">Sports</string>
+    <string name="settings_choose_category_sports_value" translatable="false">sport</string>
+
+    <!-- Label for choose category "Business" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_business_label">Business</string>
+    <string name="settings_choose_category_business_value" translatable="false">business</string>
+
+    <!-- Label for choose category "Education" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_education_label">Education</string>
+    <string name="settings_choose_category_education_value" translatable="false">education</string>
+
+    <!-- Label for choose category "Fashion" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_fashion_label">Fashion</string>
+    <string name="settings_choose_category_fashion_value" translatable="false">fashion</string>
+
+    <!-- Label for choose category "Technology" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_technology_label">Technology</string>
+    <string name="settings_choose_category_technology_value" translatable="false">technology</string>
+
+    <!-- Label for choose category "Film" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_film_label">Film</string>
+    <string name="settings_choose_category_film_value" translatable="false">film</string>
+
+    <!-- Label for choose category "Culture" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_culture_label">Culture</string>
+    <string name="settings_choose_category_culture_value" translatable="false">culture</string>
+
+    <!-- Label for choose category "Law" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_law_label">Law</string>
+    <string name="settings_choose_category_law_value" translatable="false">law</string>
+
+    <!-- Label for choose category "Music" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_music_label">Music</string>
+    <string name="settings_choose_category_music_value" translatable="false">music</string>
+
+    <!-- Label for choose category "Travel" option [CHAR LIMIT=20] -->
+    <string name="settings_choose_category_travel_label">Travel</string>
+    <string name="settings_choose_category_travel_value" translatable="false">travel</string>
+
+    <!-- Strings For Number of Articles or Limit Preference [CHAR LIMIT=30] -->
+    <string name="settings_limit_label">Number of Articles</string>
+    <string name="settings_limit_key" translatable="false">page-size</string>
+    <string name="settings_limit_default" translatable="false">20</string>
+
+    <!-- Strings For Sort Order Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Sort Order</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_latest_value</string>
+
+    <!-- Label for order-by newest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_latest_label">Latest</string>
+    <string name="settings_order_by_latest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+</resources>
